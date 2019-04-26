@@ -1,0 +1,22 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "kiwis": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "kiwi",
+    "password": "",
+    "name": "kiwis",
+    "user": "",
+    "connector": "mongodb"
+  },
+  "storage": {
+    "name": "storage",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./server/storage"
+  }
+}
